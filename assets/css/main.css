@@ -39,6 +39,15 @@ body {
       font-size: 60px;
       text-transform: uppercase;
   }
+
+  p{
+      text-align: left;
+  }
+
+  .right{
+      text-align: right;
+      padding-top: 10px;
+  }
   
   /* Header Class */
   .mini-box {
@@ -53,7 +62,6 @@ body {
     border-bottom: black solid 5px;
   }
   
-  
   /* Monalisa Part */
   
   .maxi-box{
@@ -67,6 +75,7 @@ body {
   }
   
   .text{
+      position: relative;
       height: 50%;
   }
   
@@ -75,16 +84,33 @@ body {
   }
   
   /* Minim-alistic section */
-  .miniborder{
+  .mini-border{
       height: 5px;
-      width: 200px;
+      width: 50%;
+      background-color: black;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
       
+  }
+
+  .text-bottom{
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      margin: auto;
   }
   
   
+
   
   
   
-  
-  
-  
+ /* footer>.col-lg-2 {
+    border-bottom: none;
+    background-color: red;
+}
+   */
