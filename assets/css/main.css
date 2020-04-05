@@ -1,0 +1,90 @@
+/* Macro class */
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  img {
+      height: 100%;
+  }
+  
+  [class*="col"] {
+      padding: 10px;
+      text-align: center;
+  }
+  
+  [class*="col"]:last-child {
+      border-right: none;
+  }
+  
+  
+  a>img{
+      transition: ease-in-out 310ms;
+  }
+  
+  a>img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Text style */
+  h1{
+      font-weight: 900;
+      font-size: 60px;
+      text-transform: uppercase;
+  }
+  
+  h2{
+      font-weight: 700;
+      font-size: 60px;
+      text-transform: uppercase;
+  }
+  
+  /* Header Class */
+  .mini-box {
+    height: 100px;
+    border-right: black solid 5px;
+    border-bottom: black solid 5px;
+  }
+  
+  .medium-box {
+    height: 100px;
+    border-right: black solid 5px;
+    border-bottom: black solid 5px;
+  }
+  
+  
+  /* Monalisa Part */
+  
+  .maxi-box{
+      height: 600px;
+      border-right: black solid 5px;
+      border-bottom: black solid 5px;
+  }
+  
+  .no-padding{
+      padding: 0;
+  }
+  
+  .text{
+      height: 50%;
+  }
+  
+  .border{
+      border-bottom: black solid 5px;
+  }
+  
+  /* Minim-alistic section */
+  .miniborder{
+      height: 5px;
+      width: 200px;
+      
+  }
+  
+  
+  
+  
+  
+  
+  
+  
